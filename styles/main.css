@@ -4,11 +4,57 @@
 @import "quotes.css";
 @import "banner.css";
 
+body {
+    /* background-color: #9bf6ff; */
+    background-color: #5CDB95;
 
+}
 .container {
     display: flex;
     flex-direction: column;
 }
+
+.fishList {
+    display: flex;
+    flex-direction: column;
+    padding: .8em 0;
+
+    
+}
+
+/* three sections on the web page are wrapped by the below div classes */
+.rowOne {
+    justify-content: space-around;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: .8em 0;
+
+}
+
+.rowTwo {
+    justify-content: space-around;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: .8em 0;
+}
+
+.rowThree {
+    justify-content: space-around;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: .8em 0;
+}
+
+
+
+.fish {
+    border: 2px solid #05386B;
+}
+
+
 
 .underTheBanner {
     display: flex;

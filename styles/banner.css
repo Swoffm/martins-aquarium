@@ -1,3 +1,11 @@
 .banner {
-    background-color: darkgoldenrod;
+    
+}
+
+.banner__logo {
+    display: flex;
+}
+.banner__logo img {
+    flex: 1;
+    width: 100vw;
 }
