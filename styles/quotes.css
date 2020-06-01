@@ -1,7 +1,19 @@
 .quoteList {
-    background-color: lightyellow;
+    /* background-color: #bdb2ff; */
+    background-color: #379683;
+
+    color: #fffffc;
+    display: flex;
 }
 
 .quote {
-    background-color: yellow;
+   
+    font-style: italic;
+    display: flex;
+    padding: .1em 1em;
+
+}
+
+.quote p {
+    padding: 0 .1em;
 }

@@ -1,9 +1,12 @@
 .locationList {
-    background-color: mediumaquamarine;
+    
 }
 
 .location {
-    background-color: mediumseagreen;
+    
+    text-align: center;
+    margin: .8em .8em;
+
 }
 
 
