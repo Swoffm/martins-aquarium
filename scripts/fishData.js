@@ -67,7 +67,7 @@ const soldierFish = () => {
     const soldiers = []
 
     for (fish of fishCollection) {
-        if (fish["length"] % 5 === 0) {
+        if (fish["length"] % 5 === 0 && fish.length % 3 !== 0) {
             soldiers.push(fish)
             
         }
