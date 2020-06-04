@@ -1,16 +1,17 @@
-const quotesDataCollection = [{
-    quote: "Forage brooklyn prism shaman readymade hammock selvage hot chicken, mumblecore",
-    author: "Hipster"
-},
+let quotesDataCollection = []
 
-{
-    quote: "The ants gotta eat too.",
-    author: "-Frank Sinatra"
-},
 
-{
-    quote: "Some days, I move like water, some days I burn like fire, some days I wanna to push further, some days I wanna do nothin",
-    author: "-Justin Bieber"
+const getQuotesData = () => {
+    return fetch("http://localhost:8088/quotes").then(
+        (httpResponse) => {
+            return httpResponse.json()
+        }
+    )
+        .then(
+            (arrayOfQuotes) => {
+                // 100 percent sure the data is back
+                quotesDataCollection = arrayOfQuotes
+                console.log(quotesDataCollection)
+            }
+        )
 }
-
-]

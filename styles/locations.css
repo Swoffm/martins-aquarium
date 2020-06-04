@@ -1,11 +1,15 @@
 .locationList {
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .location {
-    
+    border: 2px solid #05386B;
     text-align: center;
-    margin: .8em .8em;
+    margin: .8em .5em;
 
 }
 
