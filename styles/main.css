@@ -3,6 +3,14 @@
 @import "tips.css";
 @import "quotes.css";
 @import "banner.css";
+@import "button.css";
+
+
+
+.hidden {
+    display: none;
+}
+
 
 body {
     /* background-color: #9bf6ff; */

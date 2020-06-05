@@ -1,0 +1,22 @@
+
+/* this customiszes the selector */
+.customization {
+    margin: .5em 0;
+}
+.typeChoice {
+    color: #fffffc;
+    background-color:  #05386B;
+    padding: .3em .7em;
+}
+
+
+/* this changes the buttons */
+.customization button {
+    padding: .3em .7em;
+    background-color:  #05386B;
+    color: #fffffc;
+    
+}
+
+
+
