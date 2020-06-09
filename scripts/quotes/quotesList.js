@@ -18,3 +18,10 @@ quoteLocation.innerHTML += quoteHTMLConverted
 }
 
 }
+
+
+const quotesVisibilityButton = document.querySelector(".toggleQuotes")
+
+quotesVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".quoteList").classList.toggle("hidden")
+})

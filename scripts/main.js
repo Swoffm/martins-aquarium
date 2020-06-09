@@ -2,7 +2,9 @@ getFishData().then(
     () => {
         fishList()
     }
-)
+).then( () => {
+    
+})
 
 
 getQuotesData().then(
@@ -22,4 +24,5 @@ getLocationData().then(
         locationList()
     }
 )
+
 
